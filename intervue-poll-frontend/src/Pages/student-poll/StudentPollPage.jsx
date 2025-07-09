@@ -9,7 +9,7 @@ import stars from "../../assets/spark.svg";
 let apiUrl =
   import.meta.env.VITE_NODE_ENV === "production"
     ? import.meta.env.VITE_API_BASE_URL
-    : "http://localhost:3000";
+    : "https://live-polling-system-backend-6wr4.onrender.com";
 const socket = io(apiUrl);
 
 const StudentPollPage = () => {
